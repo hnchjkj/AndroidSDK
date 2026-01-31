@@ -1,7 +1,7 @@
 # Android 支付SDK 接入文档
 
 ## 一、概述
-### 使用前，先阅读并参考[Android SDK 接入指引](Android-SDK-接入指引)引入
+### 使用前，先阅读并参考[Android SDK 接入指引](README.md)引入
 - `CJPaySdk` 是支付 SDK 的统一入口类，负责支付模块的初始化及支付流程的启动。
 - 支付功能依赖登录 SDK，请确保用户在支付前已完成登录。
 
@@ -36,7 +36,7 @@ CJPaySdk.init()
 ```
 
 #### 注意事项
-- 初始化时机请参考[Android SDK 接入指引](Android-SDK-接入指引)
+- 初始化时机请参考[Android SDK 接入指引](README.md)
 - 必须在 `preInit()` 之后调用
 - 初始化完成前不可发起支付
 - 可通过 `CJPaySdk.isInit` 判断初始化状态
