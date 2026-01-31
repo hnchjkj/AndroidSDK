@@ -1,7 +1,7 @@
 # Android 客服SDK 接入文档
 
 ## 一、概述
-### 使用前，先阅读并参考[Android SDK 接入指引](Android-SDK-接入指引)引入
+### 使用前，先阅读并参考[Android SDK 接入指引](README.md)引入
 - `CJServiceSdk` 是客服 SDK 的统一入口类，负责客服模块的初始化及具体页面的启动。
 - 客服功能依赖登录 SDK，请确保用户在拉起客服页面前已完成登录。
 
@@ -36,7 +36,7 @@ CJServiceSdk.init()
 ```
 
 #### 注意事项
-- 初始化时机请参考[Android SDK 接入指引](Android-SDK-接入指引)
+- 初始化时机请参考[Android SDK 接入指引](README.md)
 - 必须在 `preInit()` 之后调用
 - 初始化完成前不可拉起客服页面
 - 可通过 `CJServiceSdk.isInit` 判断初始化状态
