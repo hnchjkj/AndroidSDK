@@ -81,21 +81,21 @@ class App : Application() {
 ### 4.1 登录 SDK
 登录模块用于用户身份认证，是支付和客服功能的基础模块。
 
-[登录 SDK 使用说明](Android-登录SDK-使用说明)
+[登录 SDK 使用说明](LOGIN.md)
 
 ---
 
 ### 4.2 支付 SDK
 支付功能依赖登录模块，请确保用户已完成登录。
 
-[支付 SDK 使用说明](Android-支付SDK-使用说明)
+[支付 SDK 使用说明](PAY.md)
 
 ---
 
 ### 4.3 客服 SDK
 客服模块依赖登录态，可用于在线客服、问题反馈等场景。
 
-[客服 SDK 使用说明](Android-客服SDK-使用说明)
+[客服 SDK 使用说明](SERVICE.md)
 
 ---
 
