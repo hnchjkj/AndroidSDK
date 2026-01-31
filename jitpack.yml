@@ -1,0 +1,3 @@
+jitpack.yml
+files:
+ - com/**/*
