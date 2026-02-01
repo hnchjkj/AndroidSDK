@@ -1,40 +1,40 @@
-# Android SDK 接入文档
+# 海外游戏 Android SDK 接入文档
 
 ## 1、写在开头
-本文档将向您说明 **Android端SDK** 的接入方式及使用说明。
+本文档将向您说明 **海外游戏 Android SDK** 的接入方式及使用说明。
 
 ### 相关库清单
 ```text
-cj-sdk-core       // 核心库，必须引用
-cj-sdk-login      // 登录库，按需引用
-cj-sdk-pay        // 支付库，按需引用（依赖登录库）
-cj-sdk-service    // 客服库，按需引用（依赖登录库）
+core       // 核心库，必须引用
+login      // 登录库，按需引用
+pay        // 支付库，按需引用（依赖登录库）
+service    // 客服库，按需引用（依赖登录库）
 ```
 
 ---
 
 ## 2、引入工程
 
-SDK 通过 **本地 AAR** 形式进行引用，请按需下载对应 SDK 并添加至工程。
+SDK 通过 **Gradle** 形式进行引用，请按需添加对应 **SDK** 至工程。
 
-### 2.1 添加 AAR 文件
-将需要的 `.aar` 文件拷贝至 `app/libs/` 目录。
+### 2.1 添加镜像配置
+```gradle
+dependencyResolutionManagement {
+    repositories {
+        maven ( url= "https://raw.githubusercontent.com/hnchjkj/AndroidSDK/main/" )
+    }
+}
+```
 
 ### 2.2 Gradle 配置
 在 `app/build.gradle` 中添加如下配置：
 
 ```gradle
-repositories {
-    flatDir {
-        dirs 'libs'
-    }
-}
-
 dependencies {
-    implementation(name: 'cj-sdk-core', ext: 'aar')
-    implementation(name: 'cj-sdk-login', ext: 'aar')     // 按需
-    implementation(name: 'cj-sdk-pay', ext: 'aar')       // 按需
-    implementation(name: 'cj-sdk-service', ext: 'aar')   // 按需
+    implementation("com.hncj.sdk:core:1.0.1")      // 核心库，必须引用
+    implementation("com.hncj.sdk:login:1.0.1")     // 登录库，按需引用
+    implementation("com.hncj.sdk:pay:1.0.1")       // 支付库，按需引用（依赖登录库）
+    implementation("com.hncj.sdk:service:1.0.1")   // 客服库，按需引用（依赖登录库）
 }
 ```
 
