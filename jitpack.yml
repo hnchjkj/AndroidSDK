@@ -1,0 +1,5 @@
+# jitpack.yml
+jdk:
+  - openjdk17
+android:
+  enable: false  # 禁用 Android 构建，直接使用静态 AAR 文件
