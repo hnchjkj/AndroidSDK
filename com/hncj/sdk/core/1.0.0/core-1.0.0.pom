@@ -127,12 +127,6 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>com.hncj.android.utils</groupId>
-      <artifactId>aes</artifactId>
-      <version>1.0</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>com.qmuiteam</groupId>
       <artifactId>qmui</artifactId>
       <version>2.1.0</version>

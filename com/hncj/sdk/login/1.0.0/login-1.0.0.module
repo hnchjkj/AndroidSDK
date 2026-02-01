@@ -179,13 +179,6 @@
           }
         },
         {
-          "group": "com.hncj.android.utils",
-          "module": "aes",
-          "version": {
-            "requires": "1.0"
-          }
-        },
-        {
           "group": "androidx.compose.ui",
           "module": "ui",
           "version": {
