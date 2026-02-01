@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hncj.sdk",
+    "module": "pay",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pay-1.0.1.aar",
+          "url": "pay-1.0.1.aar",
+          "size": 114375,
+          "sha512": "c2953603ff48698b7dc5a2ef99f05b8d18bf885c6fb84f06bf817f9f364d6778b39955fc82d695431c6e07fcd4accc8e06fe6fb0ba8f15e24c14403a2e11e150",
+          "sha256": "5760cfa2a2607829731f597513d42b311bf4755c4f00a76c5c3db5d2cef723b0",
+          "sha1": "defd690ad642a7127b61d9ced2ba717f2a483e86",
+          "md5": "17344e9cc47f39e540449751af217ad2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.14.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.android.billingclient",
+          "module": "billing",
+          "version": {
+            "requires": "8.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "pay-1.0.1.aar",
+          "url": "pay-1.0.1.aar",
+          "size": 114375,
+          "sha512": "c2953603ff48698b7dc5a2ef99f05b8d18bf885c6fb84f06bf817f9f364d6778b39955fc82d695431c6e07fcd4accc8e06fe6fb0ba8f15e24c14403a2e11e150",
+          "sha256": "5760cfa2a2607829731f597513d42b311bf4755c4f00a76c5c3db5d2cef723b0",
+          "sha1": "defd690ad642a7127b61d9ced2ba717f2a483e86",
+          "md5": "17344e9cc47f39e540449751af217ad2"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pay-1.0.1-sources.jar",
+          "url": "pay-1.0.1-sources.jar",
+          "size": 22703,
+          "sha512": "edfcb6a55040c39bdff56aefbae98512e84c7340e7c91ff3e74e3df0ceebb044cd1093fdc01fc2e53b782be507a12f50e6e7a20b277fb780e16999c59d83d84f",
+          "sha256": "eb1460a7df8c637087d2f5db31a9fc69805e08776dc7f89888ab01844e29665c",
+          "sha1": "3f25767c000a99a14407503f4efd5772ff53d258",
+          "md5": "8def82da00321c151fd45bc7ffef55cc"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "pay-1.0.1-javadoc.jar",
+          "url": "pay-1.0.1-javadoc.jar",
+          "size": 280218,
+          "sha512": "50344920d84ed2d0df3708572dfcb3c29a1d70a1b2276c9405407ed2b6f2eeefd830de1c4118ed40c5b28814d78932ce962623b5bf1f78fd0680a8b7047718b0",
+          "sha256": "7b7d010d68ca12b9fe88862d0060e05d98f6f02a499d70e48b5ba4c8e8b906ce",
+          "sha1": "236eb81d9ac02b7cf218f1731dc6c903368fb735",
+          "md5": "adc495e24cff79fb05853967a280b03d"
+        }
+      ]
+    }
+  ]
+}
