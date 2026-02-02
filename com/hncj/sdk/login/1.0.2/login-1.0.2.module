@@ -3,7 +3,7 @@
   "component": {
     "group": "com.hncj.sdk",
     "module": "login",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "attributes": {
       "org.gradle.status": "release"
     }
@@ -33,13 +33,13 @@
       ],
       "files": [
         {
-          "name": "login-1.0.1.aar",
-          "url": "login-1.0.1.aar",
-          "size": 1344450,
-          "sha512": "fcb62b31c8ff0bfc6845922463831eee2962103807bd8a6ec5ff89f7998cc53e8bd5fcd3e20c11cc7649bce9e7190c923f1f2ee879bf9b1cfd7a6a74805f0194",
-          "sha256": "d522806eb0580e9032b3b73938044df397e7b1cf1fed02bfe5386f8fc902c07c",
-          "sha1": "6cef71eb7715de55b21bf34d60d9d97deb6735d9",
-          "md5": "85137b92ff2d8893c2e420cde35af77e"
+          "name": "login-1.0.2.aar",
+          "url": "login-1.0.2.aar",
+          "size": 1344537,
+          "sha512": "0b4698fbcd9e8fe053f54a0d3eb0c97696ed3e7b541525c9bb5ff40dbe74cd36efa016dee21147e781e940fba19760e7b1cd03ffef2901be012f5dbd042e220e",
+          "sha256": "9ba65dd5c740d944d96cba661de4895fb76424c26fc0d454ef4fd21f5820cf87",
+          "sha1": "3c7ca8d3e10250661a2541e1c19c3ccd95cee889",
+          "md5": "dc051a41ad6fd632e0901a7d84ae3f2c"
         }
       ]
     },
@@ -287,13 +287,13 @@
       ],
       "files": [
         {
-          "name": "login-1.0.1.aar",
-          "url": "login-1.0.1.aar",
-          "size": 1344450,
-          "sha512": "fcb62b31c8ff0bfc6845922463831eee2962103807bd8a6ec5ff89f7998cc53e8bd5fcd3e20c11cc7649bce9e7190c923f1f2ee879bf9b1cfd7a6a74805f0194",
-          "sha256": "d522806eb0580e9032b3b73938044df397e7b1cf1fed02bfe5386f8fc902c07c",
-          "sha1": "6cef71eb7715de55b21bf34d60d9d97deb6735d9",
-          "md5": "85137b92ff2d8893c2e420cde35af77e"
+          "name": "login-1.0.2.aar",
+          "url": "login-1.0.2.aar",
+          "size": 1344537,
+          "sha512": "0b4698fbcd9e8fe053f54a0d3eb0c97696ed3e7b541525c9bb5ff40dbe74cd36efa016dee21147e781e940fba19760e7b1cd03ffef2901be012f5dbd042e220e",
+          "sha256": "9ba65dd5c740d944d96cba661de4895fb76424c26fc0d454ef4fd21f5820cf87",
+          "sha1": "3c7ca8d3e10250661a2541e1c19c3ccd95cee889",
+          "md5": "dc051a41ad6fd632e0901a7d84ae3f2c"
         }
       ]
     },
@@ -307,13 +307,13 @@
       },
       "files": [
         {
-          "name": "login-1.0.1-sources.jar",
-          "url": "login-1.0.1-sources.jar",
-          "size": 41925,
-          "sha512": "98164190190b23ba2b0e7b2c911df024565958855e070f18e231423debbe702187d4e8de3837568f32bbc6068c4f1fd656f8d73dc929abed33a4c0df66b4d0d6",
-          "sha256": "5880abd6c66fcfb99a8d12fb276af57c1a296d462974f759f4a436d487505280",
-          "sha1": "53056a564cdc71325db491118784df623e2dbe29",
-          "md5": "e65ed1b48cfbeb489ca573461f341e47"
+          "name": "login-1.0.2-sources.jar",
+          "url": "login-1.0.2-sources.jar",
+          "size": 41611,
+          "sha512": "b9de70aacabd0a5ee7970c0c323fa23192d73fd79d599615fdaa0215d3826cb416f0ea2f154adb0ac1c5e6b6d19cca8ed5146b3cd2d9d6233fd3c42308a5399c",
+          "sha256": "7e1898e30b6f4a0e3a01e8be6ebfb2d436c7f5d0b0912b5ab7805895ea3f09f5",
+          "sha1": "421b670ac1c9847768277a75744fe479ac230e1d",
+          "md5": "8fcceb3abb1842b5905228f1d52fda83"
         }
       ]
     },
@@ -327,13 +327,13 @@
       },
       "files": [
         {
-          "name": "login-1.0.1-javadoc.jar",
-          "url": "login-1.0.1-javadoc.jar",
-          "size": 536833,
-          "sha512": "5b3a40cf78941a2cd67f985aa80f669b04dc73296ef639cfb0be0b10f3908aa8588163937f6d3874cfef0880e4a02c991ad9289a48e01864060ca67715e63258",
-          "sha256": "11e974d7a9df91e95c6c367098ea41fd1143422636ffecf17faf2831ddb5431b",
-          "sha1": "456a483f40c58d84226d643df062b367dfc463ec",
-          "md5": "6727e5c44f3086828ad29e2cf2613d24"
+          "name": "login-1.0.2-javadoc.jar",
+          "url": "login-1.0.2-javadoc.jar",
+          "size": 539798,
+          "sha512": "587259eaad342979cbefd6e671060431a85d5717e52b5551f5e1c6bd1f8d1981bb93744ac95f0ac1c13ef6ae7b0bc600ea3d81be4d49c28852bdc4752617ac6a",
+          "sha256": "919250e5bf7b43d378e0f47f99359b1b931b83dc2620fad7fc4f7b6b8c0ba464",
+          "sha1": "38fce9396d343d968158b121e5caf4311f6e71b5",
+          "md5": "324db94c9d73a87f8ad75bd12c2a57f2"
         }
       ]
     }

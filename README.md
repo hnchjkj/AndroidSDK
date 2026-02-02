@@ -32,7 +32,7 @@ dependencyResolutionManagement {
 ```gradle
 dependencies {
     implementation("com.hncj.sdk:core:1.0.1")      // 核心库，必须引用
-    implementation("com.hncj.sdk:login:1.0.1")     // 登录库，按需引用
+    implementation("com.hncj.sdk:login:1.0.2")     // 登录库，按需引用
     implementation("com.hncj.sdk:pay:1.0.1")       // 支付库，按需引用（依赖登录库）
     implementation("com.hncj.sdk:service:1.0.1")   // 客服库，按需引用（依赖登录库）
 }
