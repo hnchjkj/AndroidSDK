@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="1.0.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/com/hncj/sdk/login/1.0.2/login-1.0.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/com/hncj/sdk/login/1.0.2/login-1.0.2-javadoc.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
