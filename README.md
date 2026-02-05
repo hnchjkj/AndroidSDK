@@ -14,7 +14,6 @@ service    // 客服库，按需引用（依赖登录库）
 ---
 
 ## 2、引入工程
-
 SDK 通过 **Gradle** 形式进行引用，请按需添加对应 **SDK** 至工程。
 
 ### 2.1 添加镜像配置
@@ -31,12 +30,14 @@ dependencyResolutionManagement {
 
 ```gradle
 dependencies {
-    implementation("com.hncj.sdk:core:1.0.1")      // 核心库，必须引用
-    implementation("com.hncj.sdk:login:1.0.2")     // 登录库，按需引用
-    implementation("com.hncj.sdk:pay:1.0.1")       // 支付库，按需引用（依赖登录库）
-    implementation("com.hncj.sdk:service:1.0.1")   // 客服库，按需引用（依赖登录库）
+    implementation("com.hncj.sdk:core:1.0.3")      // 核心库，必须引用
+    implementation("com.hncj.sdk:login:1.0.3")     // 登录库，按需引用
+    implementation("com.hncj.sdk:pay:1.0.3")       // 支付库，按需引用（依赖登录库）
+    implementation("com.hncj.sdk:service:1.0.3")   // 客服库，按需引用（依赖登录库）
 }
 ```
+
+### 2.3 当前版本；1.0.3
 
 ---
 

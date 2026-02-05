@@ -9,35 +9,12 @@
 
 ## 二、初始化说明
 
-支付 SDK 分为 **预初始化（preInit）** 和 **正式初始化（init）** 两个阶段。
-
-### 2.1 预初始化（推荐在 Application 中调用）
-
-```kotlin
-CJPaySdk.preInit(
-    isDebug = BuildConfig.DEBUG,
-    debugLevel = Log.ERROR
-)
-```
-
-#### 参数说明
-
-| 参数名 | 类型 | 说明 |
-|------|------|------|
-| isDebug | Boolean | 是否开启 Debug 模式，默认关闭，不输出日志 |
-| debugLevel | Int | 日志级别，默认 `Log.ERROR` |
-
----
-
-### 2.2 正式初始化（必须）
-
 ```kotlin
 CJPaySdk.init()
 ```
 
 #### 注意事项
 - 初始化时机请参考[Android SDK 接入指引](README.md)
-- 必须在 `preInit()` 之后调用
 - 初始化完成前不可发起支付
 - 可通过 `CJPaySdk.isInit` 判断初始化状态
 
@@ -91,15 +68,6 @@ class App : Application() {
 
         override fun onInitFailed(code: Int, msg: String) {
         }
-    }
-
-    override fun onCreate() {
-        super.onCreate()
-
-        CJPaySdk.preInit(
-            isDebug = BuildConfig.DEBUG,
-            debugLevel = Log.ERROR
-        )
     }
 }
 ```
