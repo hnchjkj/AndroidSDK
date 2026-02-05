@@ -1,0 +1,375 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.hncj.sdk",
+    "module": "service",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "service-1.0.3.aar",
+          "url": "service-1.0.3.aar",
+          "size": 196952,
+          "sha512": "a73c44a341925067a6401be17b2994bde10b9969df17d922304285e4774e484a6cc70f1786dd623e58a9f7d416b51ffe379000644c3645b9afee680ee9b0d29d",
+          "sha256": "988e034bdab93cf96cfdda9a95850d2c2efd019540ec1e3edac98ca38dacf9e2",
+          "sha1": "6a77fdfc26dc061cee8c98f1b6f844f5a20f74fe",
+          "md5": "0469fd590d6d5e33e4c26d8e9cdb9536"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-process",
+          "version": {
+            "requires": "2.7.0"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.8.2"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.tencent",
+          "module": "mmkv",
+          "version": {
+            "requires": "1.3.3"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.14.2"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.11.0"
+          }
+        },
+        {
+          "group": "com.qmuiteam",
+          "module": "qmui",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.qmuiteam",
+          "module": "arch",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "com.github.CymChad",
+          "module": "BaseRecyclerViewAdapterHelper",
+          "version": {
+            "requires": "3.0.11"
+          }
+        },
+        {
+          "group": "com.github.lygttpod",
+          "module": "SuperTextView",
+          "version": {
+            "requires": "2.4.6"
+          }
+        },
+        {
+          "group": "com.geyifeng.immersionbar",
+          "module": "immersionbar",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "com.geyifeng.immersionbar",
+          "module": "immersionbar-ktx",
+          "version": {
+            "requires": "3.2.2"
+          }
+        },
+        {
+          "group": "me.gujun.android",
+          "module": "span",
+          "version": {
+            "requires": "1.7"
+          }
+        },
+        {
+          "group": "io.github.lucksiege",
+          "module": "pictureselector",
+          "version": {
+            "requires": "v3.11.2"
+          }
+        },
+        {
+          "group": "com.github.getActivity",
+          "module": "XXPermissions",
+          "version": {
+            "requires": "28.0"
+          }
+        },
+        {
+          "group": "com.scwang.smart",
+          "module": "refresh-layout-kernel",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.scwang.smart",
+          "module": "refresh-header-classics",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.scwang.smart",
+          "module": "refresh-footer-classics",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-android-sdk-core",
+          "version": {
+            "requires": "2.81.1"
+          }
+        },
+        {
+          "group": "com.amazonaws",
+          "module": "aws-android-sdk-s3",
+          "version": {
+            "requires": "2.81.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-common",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-runtime",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-adapters",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "databinding-ktx",
+          "version": {
+            "requires": "8.2.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "service-1.0.3.aar",
+          "url": "service-1.0.3.aar",
+          "size": 196952,
+          "sha512": "a73c44a341925067a6401be17b2994bde10b9969df17d922304285e4774e484a6cc70f1786dd623e58a9f7d416b51ffe379000644c3645b9afee680ee9b0d29d",
+          "sha256": "988e034bdab93cf96cfdda9a95850d2c2efd019540ec1e3edac98ca38dacf9e2",
+          "sha1": "6a77fdfc26dc061cee8c98f1b6f844f5a20f74fe",
+          "md5": "0469fd590d6d5e33e4c26d8e9cdb9536"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "service-1.0.3-sources.jar",
+          "url": "service-1.0.3-sources.jar",
+          "size": 31989,
+          "sha512": "13fabff7678a6fb57d2b09a0f2573d0ef0bec5ac6e9d09e78aad283b62206136a006ef535caca2ee2cd90409fbc4cd266bd3b5fae1703378b42034465838e16b",
+          "sha256": "347956df78c2488930343e2915866820dc0927c95d80e927ea3eee52a7aa1050",
+          "sha1": "5650a7244cf63cc6990534e1e1a318716e8a6934",
+          "md5": "c5a3cde02f489a2709c5f295af6c1958"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseJavaDocPublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "service-1.0.3-javadoc.jar",
+          "url": "service-1.0.3-javadoc.jar",
+          "size": 314921,
+          "sha512": "c2df6593861febb595991c54fd5843d033d9daeef4c0293ad28eb3cb60cb8d5824b7017c1f09696a4cded7f30e971d7c7aa466cc2962492d8d77da9d344b7267",
+          "sha256": "9fabaae1efa050334765f322cd3b016658dd95233132e306c9767fbdc87b533e",
+          "sha1": "e506b04753e74a39a9568fee425ac461867df435",
+          "md5": "9abcc17c92cdd1d4b5ed4565173a739d"
+        }
+      ]
+    }
+  ]
+}
